@@ -8,6 +8,7 @@ public class CloneTest {
 
 	@Test
 	public void testShallowClone() throws Exception {
+
 		Employee employee = new Employee(1, "tamajit", new Address(55,
 				"abc road", "700027"));
 		// references are not reused(deep copy)
